@@ -15,6 +15,6 @@ Open the src folder
 cd jason-metadat/src
 Run whichever script you need:
 python3 get.py
-python3 get_key.py
+python3 metadata.py
 How it works
 It makes use of the http://169.254.169.254/latest/meta-data link-local address. Instance metatada is provided at this link, but only when you visit it from a running instance.
