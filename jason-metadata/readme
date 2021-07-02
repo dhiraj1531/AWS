@@ -7,14 +7,14 @@ git clone https://github.com/AWS/jason-metadata
 Install pipenv
 sudo pip3 install pipenv
 Open the repository on your instance
-cd aws-metadata-json
+cd jason-metadata
 Install project dependancies
 pipenv install
 How to run
 Open the src folder
-cd aws-metadata-json/src
+cd jason-metadat/src
 Run whichever script you need:
-python3 get_metadata.py
+python3 get.py
 python3 get_key.py
 How it works
 It makes use of the http://169.254.169.254/latest/meta-data link-local address. Instance metatada is provided at this link, but only when you visit it from a running instance.
